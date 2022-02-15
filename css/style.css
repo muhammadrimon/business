@@ -357,6 +357,21 @@ nav .navbar ul li a:hover {
 
 /* ======================================= offer css ends ======================================= */
 
+#counterup {
+  height: 300px;
+  background: var(--brandcol);
+  margin-bottom: 80px;
+}
+
+#counterup .counterup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* ======================================= cup of coffee css ends ======================================= */
+
 #aboutBg {
   height: 625px;
   background: var(--brandcol2);

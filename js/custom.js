@@ -62,4 +62,11 @@ $(document).ready(function () {
     perturbance: 0.3,
     regulation: 200,
   });
+
+  // counterup effect;
+
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1500,
+  });
 });
