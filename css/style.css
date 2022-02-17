@@ -627,6 +627,89 @@ nav .navbar ul li a:hover {
 
 /* ======================================= video popup css ends ======================================= */
 
+#feedback {
+  margin-bottom: 80px;
+  height: 240px;
+}
+
+#feedback .feedbackItem .feedbackText {
+  background: #f6f3f3;
+  position: relative;
+  z-index: 1;
+}
+
+#feedback .feedbackItem {
+  margin: 0 59px;
+}
+
+#feedback .feedbackItem .itemContent .icon {
+  margin-top: 15px;
+}
+
+#feedback .feedbackItem .itemContent .icon h2 {
+  color: #4d4e50;
+}
+
+#feedback .feedbackItem .itemContent .icon i {
+  margin-right: 28px;
+  color: #333333;
+}
+
+#feedback .feedbackItem .feedbackText::after {
+  content: "";
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  bottom: -10px;
+  left: 7%;
+  background: #f6f3f3;
+  z-index: -1;
+  transform: rotate(-25deg);
+}
+
+#feedback .feedbackItem .feedbackText p {
+  line-height: 23px;
+  padding: 20px;
+}
+
+#feedback .feedbackSlider {
+  position: relative;
+}
+
+#feedback .feedbackSlider .slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#feedback .feedbackSlider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  background: #282528;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#feedback .feedbackSlider .slick-dots li.slick-active {
+  border: 1px solid var(--brandcol);
+  background: #fff;
+  box-sizing: content-box;
+}
+
+#feedback .feedbackSlider .slick-dots li:last-child {
+  margin-right: 0;
+}
+
+#feedback .feedbackSlider .slick-dots li button {
+  font-size: 0;
+  outline: none;
+  border: none;
+}
+
+/* ======================================= video popup css ends ======================================= */
+
 .backToTop {
   display: none;
   width: 40px;

@@ -35,6 +35,8 @@ $(document).ready(function () {
     dots: true,
     prevArrow: '<i class="fas fa-chevron-left slick-prev left-arrow"></i>',
     nextArrow: '<i class="fas fa-chevron-right slick-next right-arrow"></i>',
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
 
   // gallery filter effect;
@@ -76,4 +78,14 @@ $(document).ready(function () {
 
   // animation control by aos js;
   AOS.init();
+
+  //  feedback slider;
+  $(".feedbackSlider").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
 });
