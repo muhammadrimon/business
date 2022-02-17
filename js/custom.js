@@ -69,4 +69,11 @@ $(document).ready(function () {
     delay: 10,
     time: 1500,
   });
+
+  // animation control by wow js;
+
+  new WOW().init();
+
+  // animation control by aos js;
+  AOS.init();
 });

@@ -414,6 +414,7 @@ nav .navbar ul li a:hover {
   height: 625px;
   display: flex;
   justify-content: flex-end;
+  /* z-index: 333; */
 }
 
 #aboutBg .about .aboutText {
